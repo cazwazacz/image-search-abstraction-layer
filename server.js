@@ -18,7 +18,7 @@ MongoClient.connect(url, function(err,db){
     var history = db.collection('history')
 
     app.get('/', function(req, res){
-      res.send("Image Search Abstraction Layer API")
+      res.sendFile(__dirname + '/index.html');
     })
 
     app.get('/api/imagesearch/:searchQuery', function(req, res){
