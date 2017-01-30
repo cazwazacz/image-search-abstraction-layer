@@ -1,0 +1,24 @@
+{
+  "name": "image-search-abstraction-layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cazwazacz/image-search-abstraction-layer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cazwazacz/image-search-abstraction-layer/issues"
+  },
+  "homepage": "https://github.com/cazwazacz/image-search-abstraction-layer#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "google-images": "^2.0.0",
+    "mongodb": "^2.2.22"
+  }
+}
