@@ -17,6 +17,9 @@ MongoClient.connect(url, function(err,db){
     console.log('connection established to ' + url)
     var history = db.collection('history')
 
+    app.get('/', function(req, res){
+      res.send("Image Search Abstraction Layer API")
+    })
 
     app.get('/api/imagesearch/:searchQuery', function(req, res){
       var searchQuery = req.params.searchQuery
